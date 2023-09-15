@@ -1,0 +1,1228 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "namaste"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "sayonara", "see ya"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?",
+        "cash only?",
+        "cash only",
+        "do you accept credit card",
+        "do you accept credit card?",
+        "do you accept credit cards?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "How can I contact customer support?",
+        "What are the ways to get in touch with support?",
+        "I need assistance, how do I reach customer support?",
+        "Can you provide the contact information for customer support?",
+        "What is the customer support helpline number?",
+        "Is there an email address to contact customer support?",
+        "Tell me how to get help from customer support.",
+        "What are the available channels to contact support?"
+      ],
+      "responses": [
+        "You can contact our customer support team through multiple channels. The most convenient option is to call our customer support helpline at 9999999999 or 020-999999999. Our representatives are available to assist you during our working hours. Alternatively, you can reach out to us via email at support@bankingchatbot.com . Additionally, we offer live chat support on our website, where you can interact with our support agents in real-time. Feel free to choose the channel that suits you best, and our dedicated support team will be happy to help you with any inquiries or concerns you may have."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "tell me a joke"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "credit_card",
+      "patterns": [
+        "How do I apply for a credit card?",
+        "how do i apply for credit card",
+        "how to apply for credit card"
+      ],
+      "responses": [
+        "To apply for a credit card, please visit our website or call our customer service. The credit limit and interest rate may vary based on your credit history and other factors."
+      ]
+    },
+    {
+      "tag": "credit_card_benefits",
+      "patterns": [
+        "What are the benefits of your credit card?",
+        "benefits of credit card",
+        "benefit of credit card"
+      ],
+      "responses": [
+        "Our credit card offers various benefits such as cashback, rewards points, and discounts on shopping and dining. You can apply for a credit card on our website or by visiting one of our branches."
+      ]
+    },
+    {
+      "tag": "account_balance",
+      "patterns": [
+        "What's my account balance?",
+        "How much money do I have?",
+        "Can you tell me my balance?",
+        "What's my balance?",
+        "How much is in my account?",
+        "What's my checking account balance?",
+        "What's my savings account balance?",
+        "How much do I owe?",
+        "What's my loan balance?",
+        "What's my credit card balance?",
+        "What's my available credit?",
+        "How to view account balance?",
+        "account balance",
+        "how to view my account balance?",
+        "how to view my account balance",
+        "how to view account balance?",
+        "how to check balance",
+        "What is my current account balance?",
+        "How much money do I have in my account?",
+        "Can you tell me the balance of my account?",
+        "What is the balance in my bank account?",
+        "Please provide me with the account balance.",
+        "I'd like to know how much is in my account.",
+        "Could you let me know the balance in my bank account?",
+        "What is the available balance in my account?",
+        "Can you check my account balance for me?",
+        "How can I find out my account balance?"
+      ],
+      "responses": [
+        "To check your account balance, please log in to your online banking account or use our mobile app.",
+        "Your account balance is available on your account summary page.",
+        "You can find your account balance by checking your account statement or by logging in to your online banking account."
+      ]
+    },
+    {
+      "tag": "loan_application",
+      "patterns": [
+        "How do I apply for a loan?",
+        "What are the loan options available?",
+        "What's the eligibility criteria for a loan?",
+        "What are the requirements for applying for a loan?",
+        "How can I check my eligibility for a loan?",
+        "Can I apply for a loan online?",
+        "how to apply for loan",
+        "how to apply for loan?"
+      ],
+      "responses": [
+        "To apply for a loan, please visit our website or contact our loan department for further information."
+      ]
+    },
+    {
+      "tag": "open_account",
+      "patterns": [
+        "How to open an account?",
+        "How can I open an account?",
+        "how to create account ?",
+        "How can I open a bank account?",
+        "how to open account? "
+      ],
+      "responses": [
+        "To open an account with our bank, please follow these steps:\n\n1. Visit our official website or mobile banking app.\n2. Navigate to the account opening section or search for 'Open an Account.'\n3. Select the type of account you wish to open, such as savings, checking, or a specific product like a student account.\n4. Provide the required personal information, including your full name, date of birth, address, contact details, and identification documents (e.g., passport, driver's license).\n5. Complete any additional steps, such as funding your account or setting up online banking services.\n6. Review and agree to the terms and conditions.\n7. Submit your application.\n\nOur team will review your application, and once approved, you will receive further instructions on how to access and manage your new account. If you need any assistance during the process, feel free to reach out to our customer support. Thank you!"
+      ]
+    },
+    {
+      "tag": "UPIPinChangeApplication",
+      "patterns": [
+        "I want to apply for changing my UPI PIN.",
+        "How can I apply for a UPI PIN change?",
+        "What is the process to change my UPI PIN?",
+        "how to change upi pin?",
+        "how to update upi pin?"
+      ],
+      "responses": [
+        "Certainly! To apply for changing your UPI PIN, you can follow these steps:\n\n1. Open your UPI-enabled mobile banking app.\n2. Log in to your account using your credentials, such as your username and password.\n3. Look for the 'UPI' or 'UPI Services' section within the app.\n4. Locate the option to manage your UPI settings, which may be labeled as 'Manage UPI PIN' or 'Change UPI PIN'.\n5. Select the option to change your UPI PIN.\n6. Enter your current UPI PIN when prompted.\n7. Follow the on-screen instructions to enter and confirm your new UPI PIN.\n8. Once the PIN change is successful, you will receive a confirmation message.\n\nPlease note that the exact process may vary depending on your mobile banking app. It's always best to consult the app's user guide or contact their customer service for precise instructions."
+      ]
+    },
+    {
+      "tag": "upi_pin_change",
+      "patterns": [
+        "How can I change my UPI PIN?",
+        "What is the process to reset my UPI PIN?",
+        "Can you guide me on UPI PIN change?",
+        "How do I update my UPI PIN?",
+        "What are the steps to change my UPI PIN?",
+        "Is there a way to reset my forgotten UPI PIN?",
+        "Can I change my UPI PIN through the mobile app?",
+        "What happens if I enter the wrong UPI PIN multiple times?",
+        "Can you provide information on UPI PIN security?",
+        "Where can I find the option to change my UPI PIN?",
+        "How frequently should I change my UPI PIN?",
+        "Is it necessary to change my UPI PIN if I change my bank account password?"
+      ],
+      "responses": [
+        "To change your UPI PIN, you can follow these steps:\n\n1. Open your UPI-enabled mobile banking app.\n2. Go to the settings or profile section.\n3. Look for the 'Change UPI PIN' or 'Reset UPI PIN' option.\n4. Enter your current UPI PIN for verification.\n5. Set a new UPI PIN of your choice.\n6. Confirm the new UPI PIN.\n7. Follow any additional instructions to complete the process.\n\nIf you have forgotten your UPI PIN, you can usually find the 'Forgot UPI PIN' option in the same section. The process may involve providing additional authentication, such as answering security questions or receiving an OTP (One-Time Password) on your registered mobile number.\n\nIt is important to note that the specific steps to change or reset your UPI PIN may vary depending on the mobile banking app or UPI service provider you are using. If you encounter any difficulties or have specific questions regarding your UPI PIN change, it is recommended to refer to your bank's guidelines, contact customer support, or visit a branch for assistance. Thank you!"
+      ]
+    },
+    {
+      "tag": "close_account",
+      "patterns": [
+        "How can I close my account?",
+        "What is the process to close an account?",
+        "How can I close my bank account?",
+        "What is the procedure to close an account?",
+        "Can you guide me on closing my account?",
+        "What do I need to do to close my account?",
+        "Is there a specific process for closing a bank account?",
+        "Can you provide information on account closure?",
+        "How do I initiate the closure of my account?",
+        "What are the steps to close my bank account?",
+        "how to close account?"
+      ],
+      "responses": [
+        "To close your account, please follow these steps:\n\n1. Contact our customer support via phone, email, or visit one of our branch locations.\n2. Request an account closure and provide your account details for verification.\n3. Our customer support representative will guide you through the account closure process and may ask for additional information for security purposes.\n4. If there are any pending transactions or outstanding balances, you will need to settle them before closing the account.\n5. Once all necessary steps are completed, your account will be closed, and you will receive confirmation of the account closure.\n\nPlease note that closing an account may have specific implications, such as the loss of associated services or the need to transfer funds to another account. It is advisable to review your account terms and conditions or consult with our customer support team for any further guidance. Thank you!"
+      ]
+    },
+    {
+      "tag": "ATMPinChangeApplication",
+      "patterns": [
+        "I want to apply for changing my ATM PIN.",
+        "How can I apply for an ATM PIN change?",
+        "What is the process to change my ATM PIN?",
+        "How to change my ATM PIN.",
+        "How to change ATM PIN.",
+        "How can I update my ATM PIN?",
+        "Can I change my ATM PIN through online banking?",
+        "Is there a fee for changing the ATM PIN?",
+        "What should I do if I forgot my ATM PIN?",
+        "Can I choose my own ATM PIN?",
+        "Are there any restrictions on the ATM PIN format?",
+        "How long does it take for the new ATM PIN to become active?",
+        "Can I change my ATM PIN at any ATM?",
+        "how to update atm pin"
+      ],
+      "responses": [
+        "Sure! To apply for changing your ATM PIN, you can follow these steps:\n\n1. Visit your bank's ATM or go to a branch office.\n2. Insert your ATM card into the machine and enter your current PIN.\n3. Look for the option to change your PIN, usually found under the 'Services' or 'Security' menu.\n4. Follow the on-screen instructions to enter and confirm your new PIN.\n5. If prompted, re-enter your new PIN to confirm the change.\n6. Once the PIN change is successful, the ATM machine will display a confirmation message.\n\nAlternatively, you may also be able to change your ATM PIN through your bank's online banking portal or mobile app. Look for the 'Security' or 'Settings' section to find the option for PIN change.\n\nPlease note that the exact process may vary depending on your bank. It's always best to consult your bank's website or contact their customer service for precise instructions.\n\nIf you forgot your ATM PIN, you can contact your bank's customer service or visit a branch to initiate the PIN reset process. They will guide you through the necessary steps to regain access to your account. Thank you!"
+      ]
+    },
+    {
+      "tag": "deposit_money",
+      "patterns": [
+        "How can I deposit money into my account?",
+        "What are the ways to add funds to my account?",
+        "Can you guide me on making a deposit?",
+        "What are the different deposit options available?",
+        "How do I deposit cash or checks?",
+        "Can I deposit money through an ATM?",
+        "Is there a limit on the amount I can deposit?",
+        "Do I need to fill out a deposit slip?",
+        "Are there any fees associated with making a deposit?",
+        "How long does it take for a deposit to reflect in my account?",
+        "Can I deposit money from another bank into my account?",
+        "What are the deposit cut-off times?",
+        "how to deposit money ?",
+        "how to deposit funds ?",
+        "how to deposit money into account ?",
+        "how to deposit funds into account ?",
+        "how to deposit money into bank account ?"
+      ],
+      "responses": [
+        "To deposit money into your account, you have several options:\n\n1. Visit a branch office and deposit cash or checks with a teller.\n2. Use an ATM that accepts deposits to deposit cash or checks.\n3. Set up direct deposit from your employer to have your paycheck deposited automatically.\n4. Use online or mobile banking to transfer funds from another account.\n\nWhen depositing cash or checks at a branch or ATM, you may be required to fill out a deposit slip with details such as your account number and the amount being deposited. The availability of funds and any associated fees can vary based on your account type and bank policies.\n\nFor specific details regarding deposit limits, fees, and processing times, it is recommended to consult your bank's website or contact their customer support. Thank you!"
+      ]
+    },
+
+    {
+      "tag": "working_hours",
+      "patterns": [
+        "working hours",
+        "bank timings",
+        "operating hours",
+        "when does the bank open",
+        "when does the bank close",
+        "what are your hours of operation",
+        "what time does the bank open",
+        "what time does the bank close",
+        "when bank opens?",
+        "when bank closes?",
+        "what time bank opens",
+        "what are the timings of the bank",
+        "what time bank closes",
+        "timing"
+      ],
+      "responses": [
+        "Our bank's working hours are Monday to Friday from 9:30 AM to 4:30 PM and on Saturdays from 9:30 AM to 1:30 PM. Please note that these timings are in Indian Standard Time (IST)."
+      ]
+    },
+    {
+      "tag": "sms_alerts",
+      "patterns": [
+        "How can I sign up for SMS alerts?",
+        "What are SMS alerts?",
+        "Can you explain how SMS alerts work?",
+        "How do I activate SMS notifications?",
+        "What types of alerts can I receive via SMS?",
+        "Can I choose which transactions trigger SMS alerts?",
+        "Is there a fee for SMS alerts?",
+        "How do I update my mobile number for SMS alerts?",
+        "Can I disable SMS alerts temporarily?",
+        "Are there any security measures in place for SMS alerts?",
+        "What should I do if I'm not receiving SMS alerts?",
+        "Can I opt-in for SMS alerts for specific account activities?",
+        "how to get sms ?",
+        "how to get sms alerts ?"
+      ],
+      "responses": [
+        "SMS alerts are a convenient way to stay updated on your account activities. To sign up for SMS alerts, you can follow these steps:\n\n1. Log in to your online banking account or contact your bank's customer service.\n2. Look for the 'Alerts' or 'Notifications' section.\n3. Choose the SMS alert option and provide your mobile number.\n4. Select the types of alerts you wish to receive, such as balance updates, transaction notifications, or payment reminders.\n5. Save your preferences to activate SMS alerts.\n\nSome banks may charge a fee for SMS alerts, while others offer them as a free service. It's best to check with your bank for any applicable charges.\n\nTo update your mobile number for SMS alerts or temporarily disable them, you can typically make the changes through your online banking portal or by contacting your bank's customer support.\n\nIf you're not receiving SMS alerts or have any issues, it's recommended to verify that your mobile number is correctly registered and that your network provider supports SMS delivery. You can also reach out to your bank's customer support for assistance. Thank you!"
+      ]
+    },
+    {
+      "tag": "secure_online_banking",
+      "patterns": [
+        "Is online banking secure?",
+        "How secure is online banking?",
+        "What security measures are in place for online banking?",
+        "Can I trust online banking with my personal information?",
+        "How do you ensure the security of online transactions?",
+        "is online banking safe ?",
+        "online banking safe ?"
+      ],
+      "responses": [
+        "Online banking security is a top priority for us. We utilize industry-standard encryption protocols to protect your personal and financial information. We have multiple layers of security measures in place, including secure authentication, firewalls, and continuous monitoring to prevent unauthorized access. Additionally, we advise customers to regularly update their passwords, avoid using public Wi-Fi for transactions, and be cautious of phishing attempts. We continuously invest in the latest security technologies to safeguard your online banking experience."
+      ]
+    },
+    {
+      "tag": "authentication_process",
+      "patterns": [
+        "How do I authenticate my bank account?",
+        "What is the authentication process for my bank account?",
+        "How can I verify my bank account?",
+        "What are the steps to authenticate my account?",
+        "Tell me about the account authentication process.",
+        "how to authenticate account"
+      ],
+      "responses": [
+        "To authenticate your bank account, you will need to follow a few steps. Typically, this involves providing your account credentials, such as your username and password, to log in to your online banking portal or mobile banking app. Some banks may also use additional authentication methods, such as one-time passwords (OTPs), security questions, or biometric authentication, to ensure the security of your account. It is important to keep your login credentials secure and never share them with anyone. If you have any specific questions about your bank's authentication process, please contact our customer support for assistance."
+      ]
+    },
+    {
+      "tag": "nearest_branch",
+      "patterns": [
+        "How can I find the nearest bank branch?",
+        "Is there a way to locate the nearest branch?",
+        "What is the process to find the closest bank branch?",
+        "Can you help me find the nearest branch?",
+        "Are there any online tools to locate the nearest bank branch?",
+        "What information do I need to find the nearest branch?",
+        "Can I search for a branch by my location?",
+        "Do I need an account with the bank to use their branch locator?",
+        "Is there a mobile app to find the nearest bank branch?",
+        "What services are available at the nearest bank branch?",
+        "Can I schedule an appointment at the nearest branch?",
+        "Are there any fees for using services at the nearest branch?",
+        "nearest branch ?",
+        "where is the nearest branch ?",
+        "where is the nearest bank ?"
+      ],
+      "responses": [
+        "To find the nearest bank branch, you can use various methods:\n\n1. Visit the bank's official website and look for their branch locator tool. Enter your location or use your current location to search for the nearest branches.\n2. Some banks offer mobile apps that include branch locator features. Download the app and use the search functionality to find the nearest branch.\n3. You may also contact the bank's customer service hotline and inquire about the nearest branch based on your location.\n\nWhen using a branch locator, you typically don't need to have an account with the bank. However, some services or facilities at the branch may be limited to account holders.\n\nThe services available at the nearest bank branch may include cash withdrawals, deposits, account inquiries, loan applications, and more. It's advisable to contact the branch directly or check the bank's website for a list of available services.\n\nIf you require a specific service or want to meet with a bank representative, you can schedule an appointment with the nearest branch. Some banks provide online appointment booking services.\n\nRegarding fees, it's best to check with the specific bank and inquire about any charges associated with branch services. Thank you!"
+      ]
+    },    
+    {
+      "tag": "mutual_fund",
+      "patterns": [
+        "What is a mutual fund?",
+        "Can you explain mutual funds?",
+        "How do mutual funds work?",
+        "Tell me about investing in mutual funds.",
+        "What are the benefits of mutual funds?",
+        "Are mutual funds a good investment?",
+        "What types of mutual funds are available?",
+        "How can I start investing in mutual funds?",
+        "What is the minimum investment for mutual funds?"
+      ],
+      "responses": [
+        "A mutual fund is a type of investment vehicle that pools money from multiple investors to invest in a diversified portfolio of stocks, bonds, or other securities. It is managed by professional fund managers who make investment decisions on behalf of the investors. Mutual funds offer a convenient way for individuals to access a diversified investment portfolio without directly buying individual securities. The benefits of mutual funds include professional management, diversification, liquidity, and the ability to invest with smaller amounts. To start investing in mutual funds, you can research different funds, choose the ones that align with your investment goals, and invest through a brokerage or directly with the mutual fund company. The minimum investment amount varies depending on the specific mutual fund."
+      ]
+    },
+    {
+      "tag": "stolen_or_lost_card",
+      "patterns": [
+        "What should I do if my card is stolen or lost?",
+        "I lost my card, what should I do?",
+        "How do I report a stolen card?",
+        "My card was stolen, what steps should I take?",
+        "What is the procedure for reporting a lost card?",
+        "I lost my card",
+        "I lost my credit card",
+        "I lost my debit card",
+        "I lost my card what should i do?"
+      ],
+      "responses": [
+        "If your card is stolen or lost, it is important to take immediate action. Please contact our customer support or our dedicated card services helpline as soon as possible. They will guide you through the necessary steps to block your card and prevent unauthorized transactions. Additionally, they will assist you in the process of getting a replacement card. Remember to review your account activity for any unauthorized transactions and report them promptly. Time is of the essence in such situations, so please don't hesitate to reach out to us for assistance."
+      ]
+    },
+    {
+      "tag": "transaction_history",
+      "patterns": [
+        "Can you show me my transaction history?",
+        "How do I view my transaction details?",
+        "What are my recent transactions?",
+        "What are my last transactions?",
+        "What are the transactions on my credit card?",
+        "What are the transactions on my checking account?",
+        "What are the transactions on my savings account?",
+        "What are the transactions on my loan account?",
+        "how to view my transaction history",
+        "how to check my transaction history",
+        "how to view my transaction",
+        "how to view my transaction history",
+        "How can I view my transaction history?",
+        "Can I check my recent transactions?",
+        "Is there an online platform to view my transaction history?",
+        "What is the process to access my transaction history?"
+      ],
+      "responses": [
+        "You can view your transaction history by logging in to your online banking account and selecting the account you wish to view.",
+        "Your transaction history is available on your account statement page.",
+        "You can view your transaction history by contacting our customer support team or by logging in to your online banking account."
+      ]
+    },
+    {
+      "tag": "activate_banking_services",
+      "patterns": [
+        "How can I activate internet banking?",
+        "What is the process to activate mobile banking?",
+        "Can you guide me on activating online banking services?",
+        "How do I set up internet banking?",
+        "What are the steps to enable mobile banking?",
+        "Can you provide information on activating banking services?",
+        "What is the procedure for accessing internet banking?",
+        "How can I start using mobile banking?",
+        "how to activate internet banking",
+        "how to activate online banking"
+      ],
+      "responses": [
+        "To activate internet banking or mobile banking services, please follow these steps:\n\n1. Visit the official website of our bank or download the mobile banking app from the app store.\n2. Look for the 'New User' or 'Register' option.\n3. Click on the option to register for internet banking or mobile banking.\n4. Provide the required information, such as your account number, customer ID, or card details, for verification purposes.\n5. Set up your login credentials, including a username and password.\n6. Follow any additional instructions to complete the registration process, such as entering an OTP (One-Time Password) sent to your registered mobile number.\n7. Once the registration is successful, you will be able to access internet banking or mobile banking services.\n\nPlease note that the specific process for activating banking services may vary depending on your bank's procedures. It is advisable to refer to your bank's website, online banking platform, or contact customer support for precise instructions on activating internet banking or mobile banking services. Thank you!"
+      ]
+    },
+    {
+      "tag": "dispute_transaction",
+      "patterns": [
+        "How can I dispute a transaction on my account?",
+        "What is the process for disputing a transaction?",
+        "I need to raise a dispute for a transaction on my account."
+      ],
+      "responses": [
+        "If you want to dispute a transaction on your account, you can follow these steps:\n\n1. Review transaction details: Carefully examine the transaction details to ensure it is indeed unauthorized, fraudulent, or incorrect. Note down any relevant information such as transaction date, amount, merchant name, and any supporting evidence.\n\n2. Contact the merchant: Before initiating a dispute with your bank or financial institution, try contacting the merchant directly. Explain the issue and provide any evidence you have. They may be able to resolve the problem or provide a refund.\n\n3. Gather documentation: Collect all relevant documentation related to the disputed transaction, including receipts, invoices, emails, or any other evidence that supports your claim.\n\n4. Contact your bank: If the merchant is unresponsive or unable to resolve the issue, contact your bank or financial institution. Reach out to their customer support via phone, email, or visit a branch, and explain the situation. Provide them with the transaction details, supporting documentation, and any other requested information.\n\n5. File a dispute: Follow the bank's instructions to file a dispute for the transaction. They may have a specific dispute form to fill out or provide guidance on how to proceed.\n\n6. Investigation and resolution: The bank will initiate an investigation into the disputed transaction. They may temporarily credit the disputed amount back to your account during the investigation. The process may take some time, and the bank will keep you informed about the progress.\n\nIt's important to act promptly when disputing a transaction and provide accurate information and documentation. The exact process may vary depending on your bank's policies and procedures. For specific instructions and assistance, contact your bank's customer support."
+      ]
+    },
+    {
+      "tag": "forgot_password",
+      "patterns": [
+        "I forgot my bank account password.",
+        "How can I reset my bank account password?",
+        "I can't remember my password."
+      ],
+      "responses": [
+        "If you have forgotten your bank account password, you can easily reset it. Please visit our website and click on the 'Forgot Password' option. You will be prompted to provide your account details and follow the instructions to reset your password. Alternatively, you can contact our customer support team at [phone number] for assistance in resetting your password."
+      ]
+    },
+    {
+      "tag": "charges_atm_services",
+      "patterns": [
+        "What are the charges for ATM withdrawals?",
+        "How much does it cost to withdraw cash from an ATM?",
+        "Are there any fees for using ATMs?",
+        "Can you provide information on ATM withdrawal charges?",
+        "What are the charges for other banking services?",
+        "Are there any fees for online transfers?",
+        "What are the charges for international transactions?",
+        "Do I have to pay any fees for checking my account balance?",
+        "what are the charges for atm withdrawels",
+        "charges for atm withdrawals",
+        "charges for atm withdrawels"
+      ],
+      "responses": [
+        "The charges for ATM withdrawals and other services may vary depending on the type of account and specific banking products you have. Here is some general information:\n\n1. ATM Withdrawals: There may be charges associated with ATM cash withdrawals, especially if you use ATMs of other banks or outside the network.\n2. Other Banking Services: Different services, such as fund transfers, checkbook issuance, demand drafts, or foreign currency exchange, may have specific charges.\n3. Online Transfers: Some banks may levy fees for online transfers between accounts, especially for interbank transfers or expedited transactions.\n4. International Transactions: International transactions, such as foreign currency withdrawals or payments, may involve currency conversion charges, foreign exchange fees, and international transaction fees.\n5. Account Balance Inquiry: In many cases, checking your account balance through ATMs or online banking is free of charge, but it's advisable to check with your bank for any applicable fees.\n\nPlease note that the specific charges and fees can vary from bank to bank. It is recommended to refer to your bank's official website, customer support, or account terms and conditions for detailed information on charges related to ATM withdrawals and other services. Thank you!"
+      ]
+    },
+    {
+      "tag": "BankStatementApplication",
+      "patterns": [
+        "I want to apply for a bank statement.",
+        "How can I apply for a bank statement?",
+        "What is the process to get a bank statement?",
+        "how to view my bank statement",
+        "how to apply for bank statement"
+      ],
+      "responses": [
+        "Certainly! To apply for a bank statement, you can follow these steps:\n\n1. Visit your bank's website or go to a branch office.\n2. Look for the 'Forms' or 'Services' section on the website, or inquire with a bank representative.\n3. Find the 'Bank Statement Request Form' or a similar document.\n4. Fill out the form with the required information, such as your account details and the period for which you need the statement.\n5. Submit the completed form either online or to a bank representative.\n6. Depending on the bank's policy, you may need to pay a fee for the statement or it could be provided free of charge.\n7. The bank will process your request, and you will receive the bank statement either by mail, email, or it may be available for download from the online banking portal.\n\nPlease note that the exact process may vary depending on your bank. It's always best to consult your bank's website or contact their customer service for precise instructions."
+      ]
+    },
+    {
+      "tag": "LoanClosureApplication",
+      "patterns": [
+        "I want to apply for closing my loan.",
+        "How can I apply for loan closure?",
+        "What is the process to close a loan?"
+      ],
+      "responses": [
+        "Certainly! To apply for closing your loan, you can follow these steps:\n\n1. Contact your loan provider or visit their website.\n2. Inquire about the loan closure process and any specific requirements or forms that need to be filled out.\n3. Obtain the necessary loan closure application form, if applicable.\n4. Fill out the form with the required information, such as your loan account number, personal details, and any additional documents they may require.\n5. Submit the completed form and any requested documents to your loan provider either through their online portal, email, or in person at a branch office.\n6. Pay off any outstanding balance or fees associated with the loan closure, if required.\n7. Once the loan closure request is received, the loan provider will review and process your application.\n8. You will be notified of the status of your loan closure application and any further steps that may be necessary.\n\nPlease note that the exact process may vary depending on your loan provider. It's always best to contact them directly or visit their website for precise instructions."
+      ]
+    },
+    {
+      "tag": "update_contact_info",
+      "patterns": [
+        "How can I update my contact information?",
+        "What is the process for changing my address?",
+        "Can you guide me on updating my contact details?",
+        "How do I update my phone number and email address?",
+        "What are the steps to modify my contact information?",
+        "Can you provide information on changing my address?",
+        "What is the procedure for updating my contact info?",
+        "How can I change my registered address?",
+        "how to update phone number",
+        "how to update address",
+        "how to update personal details",
+        "how to update account details",
+        "how to update phone no",
+        "how to update mobile no",
+        "how to update mobile number"
+      ],
+      "responses": [
+        "To update your contact information or address, please follow these steps:\n\n1. Log in to your online banking account or mobile banking app.\n2. Navigate to the 'Profile' or 'Settings' section.\n3. Look for the option to update your contact details or address.\n4. Provide the new information accurately, such as your new address, phone number, or email address.\n5. Verify the changes and save/update your profile.\n6. Some banks may require additional steps, such as providing supporting documents to validate the updated information.\n7. If you are unable to update your information online, you can also visit your nearest branch or contact customer support to request the update.\n\nPlease note that the specific process for updating contact information or address may vary depending on your bank's procedures. It is advisable to refer to your bank's website, online banking platform, or contact customer support for precise instructions on updating your contact details. Thank you!"
+      ]
+    },
+
+    {
+      "tag": "transfer_money",
+      "patterns": [
+        "How do I transfer money?",
+        "What are the transfer options available?",
+        "Can I transfer money to someone else's account?",
+        "How can I transfer funds?",
+        "How do I send money?",
+        "Can I make a wire transfer?",
+        "What's the process to make a transfer?",
+        "What's the fees for transferring money?",
+        "how to sent money",
+        "how to transfer funds?",
+        "How can I transfer money to another account?",
+        "What are the different ways to send money to someone?",
+        "Can I make a fund transfer online?",
+        "how to transfer money"
+      ],
+      "responses": [
+        "You can transfer money by logging in to your online banking account and selecting the account you wish to transfer money from. You can then enter the recipient's account information and the amount you wish to transfer.",
+        "We offer a variety of transfer options, including online transfers, wire transfers, and transfers between your own accounts. Please log in to your online banking account or contact our customer support team for further information.",
+        "Yes, you can transfer money to someone else's account by logging in to your online banking account and entering the recipient's account information.",
+        "The process to transfer funds varies depending on the transfer option you choose. Please log in to your online banking account or contact our customer support team for further information."
+      ]
+    },
+    {
+      "tag": "transfer_money_limit",
+      "patterns": [
+        "What's the limit for online transfer?",
+        "Is there a limit on the amount I can transfer?",
+        "is there transfer limit?",
+        "sending money limit?",
+        "any limit for transfering money",
+        "limit for tranfer fund?",
+        "any limit for transfer fund?"
+      ],
+      "responses": [
+        "The limit for online transfers and the fees for transferring money vary depending on your account type and the transfer option you choose. Please log in to your online banking account or contact our customer support team for further information."
+      ]
+    },
+    {
+      "tag": "link_aadhaar",
+      "patterns": [
+        "How can I link my Aadhaar card to my bank account?",
+        "What is the process to link Aadhaar card with a bank account?",
+        "Can you guide me on linking my Aadhaar card to my bank account?",
+        "Is it mandatory to link Aadhaar with a bank account?",
+        "What are the benefits of linking Aadhaar to a bank account?",
+        "What documents do I need to link my Aadhaar card to my bank account?",
+        "Can I link multiple bank accounts to my Aadhaar card?",
+        "Is there a deadline for linking Aadhaar with a bank account?",
+        "Can I link my Aadhaar card online?",
+        "What should I do if my Aadhaar card details don't match my bank account?",
+        "How long does it take for the Aadhaar linking process to complete?",
+        "What are the consequences of not linking Aadhaar to a bank account?",
+        "how to link my aadhar card to my bank account ?",
+        "how to link my aadhar card to bank account ?",
+        "how to link my aadhar card ?"
+      ],
+      "responses": [
+        "Linking your Aadhaar card to your bank account is a simple process. Here's how you can do it:\n\n1. Visit your bank branch with your original Aadhaar card and a photocopy.\n2. Fill out the Aadhaar linking form available at the branch or download it from the bank's website.\n3. Submit the completed form along with the photocopy of your Aadhaar card.\n4. Your bank will verify the details and link your Aadhaar card to your bank account.\n\nLinking Aadhaar to a bank account is generally mandatory as per government regulations and helps in streamlining financial transactions and preventing fraud.\n\nTo link Aadhaar online, some banks provide the facility through their internet banking portals or mobile apps. Check with your bank for the online linking process and follow the instructions.\n\nIf there is a mismatch between your Aadhaar details and your bank account information, it's advisable to update your Aadhaar card or contact your bank for further guidance.\n\nThe time taken to complete the Aadhaar linking process may vary, but it is usually processed within a few days. Failure to link Aadhaar with a bank account may lead to restrictions on certain banking services. Thank you!"
+      ]
+    },    
+    {
+      "tag": "credit_limit",
+      "patterns": [
+        "What's my credit limit?",
+        "How much credit do I have left?",
+        "Can you tell me my available credit?",
+        "what is my credit limit?"
+      ],
+      "responses": [
+        "To check your credit limit, please login to your online banking account or contact our customer support team."
+      ]
+    },
+    {
+      "tag": "balance_transfer",
+      "patterns": [
+        "How can I transfer my credit card balance?",
+        "What are my balance transfer options?",
+        "Can I transfer my balance to another credit card?"
+      ],
+      "responses": [
+        "To transfer your credit card balance, please login to your online banking account or contact our customer support team."
+      ]
+    },
+    {
+      "tag": "credit_score",
+      "patterns": [
+        "How can I check my credit score?",
+        "What's my credit score?",
+        "What's the importance of credit score?"
+      ],
+      "responses": [
+        "To check your credit score, please login to your online banking account or contact our customer support team. Credit score is an important factor for credit card applications and loan approvals."
+      ]
+    },
+    {
+      "tag": "rewards_program",
+      "patterns": [
+        "What are the rewards options for my credit card?",
+        "How can I redeem my rewards points?",
+        "Can you explain the rewards program?"
+      ],
+      "responses": [
+        "To check your rewards program details and redeem your points, please login to your online banking account or contact our customer support team."
+      ]
+    },
+    {
+      "tag": "bill_payment",
+      "patterns": [
+        "How can I pay my credit card bill?",
+        "What are my payment options?",
+        "Can I set up automatic payments?"
+      ],
+      "responses": [
+        "To pay your credit card bill, please login to your online banking account or contact our customer support team. You can also set up automatic payments for your convenience."
+      ]
+    },
+    {
+      "tag": "late_payment_fee",
+      "patterns": [
+        "What's the late payment fee for my credit card?",
+        "What's the penalty for a late payment?",
+        "Can you explain the late payment policy?"
+      ],
+      "responses": [
+        "To check the late payment fee and policy, please refer to your credit card agreement or contact our customer support team."
+      ]
+    },
+    {
+      "tag": "credit_limit_increase",
+      "patterns": [
+        "How can I request a credit limit increase?",
+        "What are the eligibility criteria for a credit limit increase?",
+        "Can you help me increase my credit limit?"
+      ],
+      "responses": [
+        "To request a credit limit increase, please login to your online banking account or contact our customer support team. The eligibility criteria may vary depending on your credit history and payment behavior."
+      ]
+    },
+    {
+      "tag": "fraud_alert",
+      "patterns": [
+        "How can I report a fraudulent transaction?",
+        "What should I do if I suspect fraud on my credit card?",
+        "Can you help me with a fraud alert?"
+      ],
+      "responses": [
+        "If you suspect fraud on your credit card, please contact our customer support team immediately. We take fraud very seriously and will investigate any suspicious transactions."
+      ]
+    },
+    {
+      "tag": "atm_location",
+      "patterns": [
+        "Where is the nearest ATM?",
+        "Can you help me find an ATM?",
+        "What are the ATM locations?"
+      ],
+      "responses": [
+        "To find the nearest ATM location, please visit our website or mobile app. You can also contact our customer support team for assistance."
+      ]
+    },
+    {
+      "tag": "atm_card_issues",
+      "patterns": [
+        "My ATM card is not working",
+        "My ATM card is lost or stolen",
+        "How can I activate my new ATM card?"
+      ],
+      "responses": [
+        "If your ATM card is not working, please contact our customer support team immediately. In case of a lost or stolen ATM card, please block the card immediately and apply for a new one. To activate a new ATM card, please follow the instructions provided with the card."
+      ]
+    },
+    {
+      "tag": "atm_withdrawal_limit",
+      "patterns": [
+        "What's my ATM withdrawal limit?",
+        "How much cash can I withdraw from an ATM?",
+        "Can I increase my ATM withdrawal limit?",
+        "atm withdrawal limit"
+      ],
+      "responses": [
+        "To check your ATM withdrawal limit or request an increase, please login to your online banking account or contact our customer support team."
+      ]
+    },
+    {
+      "tag": "atm_fees",
+      "patterns": [
+        "What are the ATM fees?",
+        "Is there a fee for using an ATM?",
+        "How can I avoid ATM fees?"
+      ],
+      "responses": [
+        "ATM fees may vary depending on the ATM location and network. Please refer to our website or mobile app for more information on ATM fees. You may be able to avoid ATM fees by using an ATM within our network."
+      ]
+    },
+    {
+      "tag": "atm_balance_inquiry",
+      "patterns": [
+        "Can I check my account balance at an ATM?",
+        "How can I do a balance inquiry at an ATM?",
+        "how to check my balance on atm",
+        "how to check balance at atm",
+        "how to check my account balance at an ATM?",
+        "how to view my account balance at atm",
+        "how to view my account balance on atm",
+        "how to view my  balance at atm",
+        "how to view my  balance on atm",
+        "Is there a fee for checking my account balance at an ATM?"
+      ],
+      "responses": [
+        "You can check your account balance at an ATM. There may be a fee for this service depending on the ATM location and network. Please refer to our website or mobile app for more information on ATM fees."
+      ]
+    },
+    {
+      "tag": "deposit_money_atm",
+      "patterns": [
+        "How do I deposit money at an ATM?",
+        "What is the process for depositing cash at an ATM?",
+        "Can you guide me on making a deposit at an ATM?",
+        "Are there any specific instructions for depositing checks at an ATM?",
+        "What are the steps to deposit money at an ATM?",
+        "Is it safe to deposit cash at an ATM?",
+        "Are there any limits on the amount I can deposit at an ATM?",
+        "Do I need an envelope to deposit money at an ATM?",
+        "Can I deposit coins at an ATM?",
+        "How long does it take for a deposit made at an ATM to reflect in my account?",
+        "What should I do if my deposit doesn't show up in my account?",
+        "Can I deposit money at any ATM?",
+        "how to deposit money at an atm",
+        "how to deposit money on atm"
+      ],
+      "responses": [
+        "To deposit money at an ATM, you can follow these steps:\n\n1. Insert your ATM card into the machine and enter your PIN.\n2. Select the 'Deposit' option on the screen.\n3. If required, endorse any checks you are depositing.\n4. Follow the on-screen prompts to specify the account you want to deposit into.\n5. If you're depositing cash, insert the bills into the designated slot or cash acceptor.\n6. If you're depositing checks, insert them into the envelope provided or follow the instructions to insert the checks directly.\n7. Confirm the deposit amount and complete the transaction.\n\nIt is important to ensure that you enter the correct deposit amount and follow any additional instructions provided by the ATM.\n\nThe availability of funds and the time it takes for a deposit to reflect in your account can vary depending on your bank's policies. If you encounter any issues with your deposit, such as a missing deposit or discrepancies in the amount, it is recommended to contact your bank's customer support for assistance. Thank you!"
+      ]
+    },
+    {
+      "tag": "atm_transaction_history",
+      "patterns": [
+        "Can I view my ATM transaction history?",
+        "How can I check my ATM transaction history?",
+        "Is there a fee for checking my ATM transaction history?",
+        "how to view atm transaction history",
+        "how to check atm transaction history"
+      ],
+      "responses": [
+        "You may be able to view your ATM transaction history through your online banking account or mobile app. There may be a fee for this service depending on your account type. Please refer to our website or contact our customer support team for more information."
+      ]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": [
+        "I forgot my password",
+        "How can I reset my password?",
+        "My password is not working"
+      ],
+      "responses": [
+        "To reset your password, please click on the 'forgot password' link on the login page or contact our customer support team for assistance."
+      ]
+    },
+    {
+      "tag": "account_lock",
+      "patterns": [
+        "My account is locked",
+        "Why is my account locked?",
+        "How can I unlock my account?"
+      ],
+      "responses": [
+        "If your account is locked, please contact our customer support team immediately to unlock your account and reset your password."
+      ]
+    },
+    {
+      "tag": "suspicious_activity",
+      "patterns": [
+        "I see suspicious activity on my account",
+        "My account has been hacked",
+        "How can I report suspicious activity on my account?"
+      ],
+      "responses": [
+        "If you notice any suspicious activity on your account, please contact our customer support team immediately. We take all security concerns seriously and will investigate any reported incidents."
+      ]
+    },
+    {
+      "tag": "phishing_scams",
+      "patterns": [
+        "How can I avoid phishing scams?",
+        "What are phishing scams?",
+        "What should I do if I receive a suspicious email or call?"
+      ],
+      "responses": [
+        "Phishing scams are attempts by fraudsters to obtain sensitive information from you such as passwords or bank account details. To avoid these scams, never share your personal information with anyone and only visit trusted websites. If you receive a suspicious email or call, do not click on any links or provide any information. Instead, contact our customer support team immediately."
+      ]
+    },
+    {
+      "tag": "two_factor_authentication",
+      "patterns": [
+        "What is two-factor authentication?",
+        "How can I enable two-factor authentication?",
+        "Why is two-factor authentication important?"
+      ],
+      "responses": [
+        "Two-factor authentication is an extra layer of security that requires a second form of verification in addition to your password. To enable two-factor authentication, please visit your account settings page or contact our customer support team for assistance. Two-factor authentication is important because it adds an extra layer of protection against unauthorized access to your account."
+      ]
+    },
+    {
+      "tag": "security_alerts",
+      "patterns": [
+        "How can I receive security alerts?",
+        "What are security alerts?",
+        "Why should I sign up for security alerts?"
+      ],
+      "responses": [
+        "Security alerts are notifications that inform you of any suspicious activity on your account or changes to your account settings. To sign up for security alerts, please visit your account settings page or contact our customer support team for assistance. It's important to sign up for security alerts so you can stay informed of any potential security breaches and take immediate action."
+      ]
+    },
+    {
+      "tag": "security_tips",
+      "patterns": [
+        "What are some security tips?",
+        "How can I protect my account?",
+        "What should I do to keep my account safe?"
+      ],
+      "responses": [
+        "Some security tips include never sharing your personal information with anyone, using strong passwords, and enabling two-factor authentication. Additionally, be wary of suspicious emails or calls and always log out of your account when using a public computer."
+      ]
+    },
+    {
+      "tag": "loan_types",
+      "patterns": [
+        "What types of loans do you offer?",
+        "Can you tell me about your loan options?",
+        "What are the different types of loans?"
+      ],
+      "responses": [
+        "We offer a range of loan options including personal loans, home loans, car loans, and business loans. Each loan has its own set of terms and eligibility requirements. Please visit our website or contact our customer support team for more information."
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "Am I eligible for a loan?",
+        "What are the eligibility requirements for a loan?",
+        "How can I check my eligibility for a loan?"
+      ],
+      "responses": [
+        "Loan eligibility requirements vary depending on the type of loan you are applying for. Generally, factors such as credit score, income, and employment history are taken into consideration. You can check your eligibility by visiting our website or contacting our customer support team."
+      ]
+    },
+    {
+      "tag": "application_process",
+      "patterns": [
+        "What is the loan application process?",
+        "How can I apply for a loan?",
+        "What documents do I need to apply for a loan?"
+      ],
+      "responses": [
+        "The loan application process involves filling out an application form and providing supporting documentation such as proof of income and identification. You can apply for a loan online through our website or by visiting one of our branches. Please refer to our website or contact our customer support team for a detailed list of required documents."
+      ]
+    },
+    {
+      "tag": "loan_approval",
+      "patterns": [
+        "How long does it take to get loan approval?",
+        "What is the loan approval process?",
+        "What factors determine loan approval?"
+      ],
+      "responses": [
+        "Loan approval times vary depending on the type of loan and your eligibility. Generally, factors such as credit score, income, and employment history are taken into consideration. The loan approval process involves reviewing your application and supporting documentation. Please refer to our website or contact our customer support team for more information."
+      ]
+    },
+    {
+      "tag": "loan_repayment",
+      "patterns": [
+        "What are the repayment terms for a loan?",
+        "How can I make loan payments?",
+        "What happens if I miss a loan payment?"
+      ],
+      "responses": [
+        "Loan repayment terms vary depending on the type of loan and your agreement. Generally, you can make loan payments through automatic payments or manually through our website or mobile app. If you miss a loan payment, please contact our customer support team immediately to discuss your options."
+      ]
+    },
+    {
+      "tag": "loan_refinancing",
+      "patterns": [
+        "Can I refinance my loan?",
+        "What is loan refinancing?",
+        "How can I refinance my loan?"
+      ],
+      "responses": [
+        "Loan refinancing involves taking out a new loan to pay off an existing loan. This can be a good option if you want to lower your monthly payments or interest rate. You can refinance your loan by contacting our customer support team or visiting one of our branches. Please note that eligibility requirements and fees may apply."
+      ]
+    },
+    {
+      "tag": "credit_card",
+      "patterns": [
+        "How do I apply for a credit card?",
+        "What are the credit card options available?",
+        "What's the eligibility criteria for a credit card?"
+      ],
+      "responses": [
+        "To apply for a credit card, please visit our website or contact our credit card department for further information."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks a lot", "Appreciate your help"],
+      "responses": [
+        "You're welcome! Let me know if you need further assistance."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "Sorry, I didn't understand that. Can you please rephrase your question or contact our customer support team for assistance?"
+      ]
+    },
+    {
+      "tag": "branch_name",
+      "patterns": [
+        "What is the name of the branch you visit the most?",
+        "Which branch do you frequent the most?",
+        "Can you tell me the name of the branch you visit?"
+      ],
+      "responses": [
+        "We appreciate your loyalty! To better assist you, can you please provide us with the name of the branch you visit the most?"
+      ]
+    },
+    {
+      "tag": "branch_name_provided",
+      "patterns": [
+        "The name of the branch I visit the most is [branch_name]",
+        "I usually visit the [branch_name] branch",
+        "My preferred branch is [branch_name]"
+      ],
+      "responses": [
+        "Thank you for letting us know! We'll make sure to keep that in mind for any future inquiries or updates related to your account. Is there anything else you need assistance with today?"
+      ]
+    },
+    {
+      "tag": "reasons_selection",
+      "patterns": [
+        "What are your reasons for choosing our bank?",
+        "Can you tell me why you chose our bank?",
+        "What do you like about our bank?"
+      ],
+      "responses": [
+        "We're glad that you chose our bank! Please select the reasons for choosing us from the following options: 1) Competitive interest rates, 2) Convenient branch locations, 3) Excellent customer service, 4) Wide range of banking products, or 5) Others."
+      ]
+    },
+    {
+      "tag": "reasons_provided",
+      "patterns": [
+        "I chose your bank because of [reason]",
+        "My reasons for choosing your bank are [reasons]",
+        "[reasons] is why I chose your bank"
+      ],
+      "responses": [
+        "Thank you for selecting our bank for these reasons. We strive to provide the best banking experience for our customers. Is there anything else I can assist you with today?"
+      ]
+    },
+    {
+      "tag": "facilities_rating",
+      "patterns": [
+        "Can you rate the ease of use and accessibility of our bank's facilities?",
+        "How would you rate the ease of use and accessibility of our bank's facilities?",
+        "On a scale of 1 to 10, how would you rate the ease of use and accessibility of our bank's facilities?"
+      ],
+      "responses": [
+        "Thank you for providing your feedback. We're always looking to improve our banking experience. Is there anything else I can assist you with today?"
+      ]
+    },
+    {
+      "tag": "staff_rating",
+      "patterns": [
+        "How happy are you with the helpfulness and courtesy of our bank's staff?",
+        "Can you rate the helpfulness and courtesy of our bank's staff?",
+        "On a scale of 1 to 10, how would you rate the helpfulness and courtesy of our bank's staff?"
+      ],
+      "responses": [
+        "Thank you for providing your feedback. We value your opinion and will use it to improve our customer service. Is there anything else I can assist you with today?"
+      ]
+    },
+    {
+      "tag": "likes_about_bank",
+      "patterns": [
+        "What do you like the most about our bank?",
+        "Can you name the things you like about our bank?",
+        "What features of our bank do you appreciate the most?"
+      ],
+      "responses": [
+        "Thank you for your feedback. We're glad to hear that you appreciate these features. Is there anything else I can assist you with today?"
+      ]
+    },
+
+    {
+      "tag": "Bill payment",
+      "patterns": [
+        "How can I pay my bill online?",
+        "What is the deadline for bill payment?",
+        "Can I set up automatic bill payments?",
+        "What happens if I miss a bill payment?"
+      ],
+      "responses": [
+        "You can pay your bill online through our website or mobile app.",
+        "The deadline for bill payment is the 15th of every month.",
+        "Yes, you can set up automatic bill payments to ensure that your bills are paid on time.",
+        "If you miss a bill payment, you may incur late fees or interest charges. Please contact our customer service team for more information."
+      ]
+    },
+    {
+      "tag": "Transfer funds",
+      "patterns": [
+        "How can I transfer funds between my accounts?",
+        "What is the maximum amount I can transfer?",
+        "Is there a fee for transferring funds?",
+        "How long does it take for a transfer to go through?"
+      ],
+      "responses": [
+        "You can transfer funds between your accounts through our online banking portal or mobile app.",
+        "The maximum amount you can transfer varies depending on your account type and other factors. Please contact our customer service team for more information.",
+        "There may be a fee for transferring funds. Please check our fee schedule or contact our customer service team for more information.",
+        "The time it takes for a transfer to go through depends on a number of factors, such as the type of transfer and the banks involved. Please contact our customer service team for more information."
+      ]
+    },
+    {
+      "tag": "Check deposit",
+      "patterns": [
+        "Can I deposit a check using my phone?",
+        "How long does it take for a check to clear?",
+        "Is there a limit to the amount of a check deposit?",
+        "What happens if a check bounces?"
+      ],
+      "responses": [
+        "Yes, you can deposit a check using our mobile app.",
+        "The time it takes for a check to clear depends on a number of factors, such as the amount of the check and the bank it was drawn on. Please contact our customer service team for more information.",
+        "There may be a limit to the amount of a check deposit. Please check our deposit policies or contact our customer service team for more information.",
+        "If a check bounces, you may incur a fee and the funds may be debited from your account. Please contact our customer service team for more information."
+      ]
+    },
+    {
+      "tag": "Account security",
+      "patterns": [
+        "How do you keep my account information secure?",
+        "What happens if my account is hacked?",
+        "Is two-factor authentication available?",
+        "How do I update my account security settings?"
+      ],
+      "responses": [
+        "We use state-of-the-art security measures to keep your account information safe.",
+        "If your account is hacked, please contact our customer service team immediately.",
+        "Yes, two-factor authentication is available. Please contact our customer service team for more information on how to set it up.",
+        "You can update your account security settings through our online banking portal or mobile app."
+      ]
+    },
+    {
+      "tag": "Personal information",
+      "patterns": [
+        "What personal information do I need to provide to open an account?",
+        "How can I update my personal information?",
+        "Is my personal information secure with the bank?"
+      ],
+      "responses": [
+        "You need to provide your full name, address, date of birth, and identification documents.",
+        "You can update your personal information through online banking or by visiting a branch.",
+        "Yes, we take appropriate measures to ensure the security of your personal information."
+      ]
+    },
+    {
+      "tag": "Online banking login issues",
+      "patterns": [
+        "I am having trouble logging into my online banking account.",
+        "What do I do if I forget my online banking password?",
+        "How can I change my online banking login credentials?"
+      ],
+      "responses": [
+        "Please try resetting your password or contact our customer service for assistance.",
+        "You can reset your password through the online banking login page.",
+        "You can change your login credentials through the online banking settings."
+      ]
+    },
+    {
+      "tag": "Customer service inquiries",
+      "patterns": [
+        "What are your customer service hours?",
+        "How can I contact your customer service?",
+        "What services can I get from your customer service?"
+      ],
+      "responses": [
+        "Our customer service is available 24/7.",
+        "You can contact our customer service through phone, email, or live chat.",
+        "Our customer service can assist you with a variety of banking-related inquiries and issues."
+      ]
+    },
+    {
+      "tag": "Identity verification",
+      "patterns": [
+        "Why do I need to go through an identity verification process?",
+        "What documents do I need for identity verification?",
+        "How long does the identity verification process take?"
+      ],
+      "responses": [
+        "Identity verification is necessary to prevent fraud and protect your account.",
+        "You need to provide identification documents such as passport or driver's license.",
+        "The identity verification process usually takes a few business days."
+      ]
+    },
+    {
+      "tag": "Credit score",
+      "patterns": [
+        "How can I check my credit score?",
+        "What affects my credit score?",
+        "How can I improve my credit score?"
+      ],
+      "responses": [
+        "You can check your credit score through the credit reporting agencies.",
+        "Factors such as payment history, credit utilization, and credit history affect your credit score.",
+        "You can improve your credit score by paying bills on time, reducing debt, and maintaining a good credit history."
+      ]
+    },
+    {
+      "tag": "Account opening",
+      "patterns": [
+        "What do I need to do to open a bank account?",
+        "How long does it take to open a bank account?",
+        "What types of accounts can I open with the bank?"
+      ],
+      "responses": [
+        "You need to provide personal information and identification documents.",
+        "The account opening process usually takes a few business days.",
+        "You can open checking, savings, money market, and CD accounts with the bank."
+      ]
+    },
+    {
+      "tag": "Account closing",
+      "patterns": [
+        "How do I close my account?",
+        "What is the process for closing my account?",
+        "Can I close my account online?",
+        "What fees are associated with closing my account?"
+      ],
+      "responses": [
+        "You can close your account by visiting one of our branches or by submitting a request through online banking.",
+        "The process for closing your account depends on the type of account you have. Please visit our website or contact customer service for more information.",
+        "Yes, you can close your account online by logging into your account and following the instructions.",
+        "There may be fees associated with closing your account, depending on the type of account you have and how long it has been open. Please visit our website or contact customer service for more information."
+      ]
+    },
+    {
+      "tag": "Account fees",
+      "patterns": [
+        "What are the fees for my account?",
+        "Are there any monthly fees?",
+        "How much does it cost to use an ATM?",
+        "What are the overdraft fees?"
+      ],
+      "responses": [
+        "The fees for your account depend on the type of account you have. Please visit our website or contact customer service for more information.",
+        "There may be monthly fees associated with certain accounts. Please visit our website or contact customer service for more information.",
+        "Using our ATMs is free for account holders. There may be fees associated with using non-network ATMs.",
+        "Overdraft fees depend on the type of account you have and the amount of the overdraft. Please visit our website or contact customer service for more information."
+      ]
+    },
+    {
+      "tag": "Fraud protection",
+      "patterns": [
+        "How do you protect against fraud?",
+        "What happens if my account is compromised?",
+        "How can I report suspicious activity?",
+        "What is two-factor authentication?"
+      ],
+      "responses": [
+        "We have measures in place to protect against fraud, including monitoring for suspicious activity and providing alerts for unusual transactions.",
+        "If your account is compromised, we will work with you to investigate and resolve the issue.",
+        "You can report suspicious activity by contacting customer service or visiting one of our branches.",
+        "Two-factor authentication is a security feature that requires users to provide two forms of identification before accessing their account. This can include a password and a code sent to your phone or email."
+      ]
+    },
+    {
+      "tag": "Credit monitoring",
+      "patterns": [
+        "Do you offer credit monitoring services?",
+        "What is credit monitoring?",
+        "How does credit monitoring work?",
+        "What are the benefits of credit monitoring?"
+      ],
+      "responses": [
+        "Yes, we offer credit monitoring services to our customers.",
+        "Credit monitoring is a service that tracks changes to your credit report and alerts you to any unusual activity.",
+        "Credit monitoring works by regularly checking your credit report for changes and sending you alerts when there is suspicious activity.",
+        "The benefits of credit monitoring include early detection of fraud, the ability to quickly respond to changes in your credit report, and peace of mind."
+      ]
+    }
+  ]
+}
